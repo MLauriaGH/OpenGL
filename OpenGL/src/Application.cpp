@@ -159,6 +159,7 @@ int main(void)
     ASSERT(location != -1);
     GLCall(glUniform4f(location, 0.8f, 0.3f, 0.8f, 1.0F));
     
+    //Test
     float r = 0.5f;
     float increment = 0.025f;
     /* Loop until the user closes the window */
